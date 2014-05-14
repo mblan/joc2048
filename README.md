@@ -8,7 +8,7 @@ JOC is also a wine ellaborated in Spain - that's why you see the logos and the w
 ### Grid and Tiles Screenshot
 
 <p>
-  <img src="https://raw.githubusercontent.com/mblan/joc2048/gh-pages/imatges/joc2048.png" alt="joc 2048 Screenshot"/>
+  <a href="http://mblan.github.io/joc2048/"><img src="https://raw.githubusercontent.com/mblan/joc2048/gh-pages/imatges/joc2048.png" alt="joc 2048 Screenshot"/></a>
 </p>
 
 ### Thanks
