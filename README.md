@@ -1,9 +1,10 @@
 JOC 2048
 =======
-Another version of 2048. 
-Major changes are rounded tiles and gif images used as tiles. 
-JOC means Game in Catalan language (native lang of Barcelona).
-JOC is also a wine ellaborated in Spain - that's why you see the logos and the wine bottles after tile 64 ! 
+Another version of 2048. <p></p>
+Major changes are rounded tiles and gif images used as tiles. <p></p>
+JOC means Game in Catalan language (native lang of Barcelona).<p></p>
+JOC is also a wine ellaborated in Spain - that's why you see the logos and the wine bottles after tile 64! 
+<p></p>
 
 ### Grid and Tiles Screenshot
 
