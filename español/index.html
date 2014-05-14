@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es" manifest="cache.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta content="Jordi Oliver" name="Author">
+  <meta content="JOC 2048" name="title">
+  <title>JOC 2048 | Juego 2048</title>
+  <meta content="index, follow" name="robots">
+  <meta content="JOC, 2048, juego, Gabriele Cirulli" name="keywords">
+  <meta content="Joc 2048, el popular juego online de los vinos JOC" name="description">
+ 
+  <meta content="JOC 2048: El juego de los vinos JOC" property="og:title">
+  <meta content="http://www.joc2048.com/imatges/joc2048.png" property="og:image">
+  <meta content="product" property="og:type">
+  <meta content="http://joc2048.com/es/" property="og:url">
+  <meta content="JOC 2048" property="og:site_name">
+  <meta content="Juega online a JOC 2048, una versión especial del popular juego 2048 creado por Gabriele Cirulli." property="og:description">
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="imatges/LogoJOC.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="format-detection" content="telephone=no">
+
+
+</head>
+
+<body>
+ 
+  <div class="container">
+    <div class="idiomas"><a href="http://www.joc2048.cat">català</a> | <a href="http://www.joc2048.com/es">español</a></div> 
+    <div class="logoJOC"><a href="http://www.vinojoc.com" target="_blank"><img src="http://www.joc2048.com/imatges/LogoJOC.png" alt="logo vinos JOC"></a></div>
+    
+    <div class="heading">
+      <h1 class="title">JOC 2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <div class="game-intro">
+      <strong>Vino + Matemáticas = JOC 2048</strong>
+      <a class="restart-button">Juega!</a>
+      </div>
+      <div class="lletrapetita">Junta los números iguales hasta conseguir 2048.
+      </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">Vuelve a jugar</a>
+          
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+
+    <p class="game-explanation">
+      <strong class="important">Reglas de juego:</strong> Utiliza las <strong>flechas del teclado</strong> para mover todas las filas o columnas. Cada vez que se junten dos números iguales, se irán sumando: 2, 4, 8, 16... El objectivo es llegar a 2048!
+      <p class ="lletrapetita">*Si utilizas un dispositivo con pantalla táctil, mueve las filas y columnas con el dedo.</p>
+      <strong class="important">ATENCIÓN:</strong> Juega siempre con moderación !!!
+    <hr>
+    <a href="http://vinojoc.com/joc-blanc-emporda/" target="_blank"><img src="http://www.joc2048.com/imatges/JocBlancEmporda.png"> </a>
+    <a href="http://vinojoc.com/joc-negre-emporda/" target="_blank"><img src="http://www.joc2048.com/imatges/JocNegreEmporda.png"> </a>
+    <a href="http://vinojoc.com/joc-blanc-rueda/" target="_blank"><img src="http://www.joc2048.com/imatges/JocVerdejoRueda.png"> </a>
+    <a href="http://vinojoc.com/joc-godello-valdeorras/" target="_blank"><img src="http://www.joc2048.com/imatges/JocGodelloValdeorras.png"> </a> 
+    <a href="http://vinojoc.com/joc-tinto-ribera/" target="_blank"><img src="http://www.joc2048.com/imatges/JocRibera.png"> </a>
+    <p></p> 
+    <p class="logos"><strong>¿Conoces los vinos JOC?</strong></p> <p class="logos">Haz click sobre cada logotipo para descubrirlos. </p>
+    <p class="game-explanation"> 
+     <div class="lletrapetita"><center><a href="http://www.vinojoc.com/ca" target="_blank">www.vinojoc.com</a>  |  <a href="mailto:info@vinojoc.com" target=_blank>info@vinojoc.com </a></center> 
+      <p><center><a href="https://www.facebook.com/pages/JOC-de-Jordi-Oliver/263304457132960?ref=ts&fref=ts" target="_blank"> facebook</a></center></p>
+     <p>
+     <center><div class="fb-like" data-href="http://www.joc2048.com" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></center></p>
+    <hr></div>
+    <div class="pre-game">
+    <a class="compra" href="http://www.vinissimus.com/es/bodegas/index.html?id_bodega=vjoc" target="_blank"><div class="carrito"><img src="http://www.joc2048.com/imatges/carritocompra.png"></div><div class="lletramespetita">compra</div>J O C</a>
+    </div>
+    <p>
+    <hr>
+    <center><div class="lletramespetita"> <a href="http://www.joc2048.com"><img style="width:96px;" src="http://www.joc2048.com/imatges/joc2048.png" alt="2048 game joc juego" title="2048"></a></div></div></center><p></p><center>
+    <div class="lletramespetita">JOC 2048 es una variación del juego <a href="http://gabrielecirulli.github.io/2048/" target="_blank">2048</a> de Gabriele Cirulli.</div></center>
+    </p>
+    <hr>
+    <p></p>
+    <p></p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>
