@@ -1,14 +1,14 @@
-JOC2048
+JOC 2048
 =======
-A version of 2048. 
-Rounded tiles and gif images for numbers. 
+Another version of 2048. 
+Major changes are rounded tiles and gif images used as tiles. 
 JOC means Game in Catalan language (native lang of Barcelona).
 JOC is also a wine ellaborated in Spain - that's why you see the logos and the wine bottles after tile 64 ! 
 
 ### Grid and Tiles Screenshot
 
 <p>
-  <a href="http://mblan.github.io/joc2048/"><img src="https://raw.githubusercontent.com/mblan/joc2048/gh-pages/imatges/joc2048.png" alt="joc 2048 Screenshot"/></a>
+  <a href="http://mblan.github.io/joc2048/" target="_blank"><img src="https://raw.githubusercontent.com/mblan/joc2048/gh-pages/imatges/joc2048.png" alt="joc 2048 Screenshot"/></a>
 </p>
 
 ### Thanks
